@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051961F7287CB00BED24D /* AppDelegate.swift */; };
+		81B051991F7287CB00BED24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051981F7287CB00BED24D /* ViewController.swift */; };
+		81B0519C1F7287CB00BED24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0519A1F7287CB00BED24D /* Main.storyboard */; };
+		81B0519E1F7287CB00BED24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B0519D1F7287CB00BED24D /* Assets.xcassets */; };
+		81B051A11F7287CB00BED24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0519F1F7287CB00BED24D /* LaunchScreen.storyboard */; };
+		81B051AC1F7287CB00BED24D /* Bavarian_ExoticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051AB1F7287CB00BED24D /* Bavarian_ExoticsTests.swift */; };
+		81B051B71F7287CB00BED24D /* Bavarian_ExoticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051B61F7287CB00BED24D /* Bavarian_ExoticsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B051A81F7287CB00BED24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B0518B1F7287CB00BED24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B051921F7287CB00BED24D;
+			remoteInfo = "Bavarian Exotics";
+		};
+		81B051B31F7287CB00BED24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B0518B1F7287CB00BED24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B051921F7287CB00BED24D;
+			remoteInfo = "Bavarian Exotics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B051931F7287CB00BED24D /* Bavarian Exotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bavarian Exotics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B051961F7287CB00BED24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B051981F7287CB00BED24D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B0519B1F7287CB00BED24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B0519D1F7287CB00BED24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B051A01F7287CB00BED24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B051A21F7287CB00BED24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B051A71F7287CB00BED24D /* Bavarian ExoticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bavarian ExoticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B051AB1F7287CB00BED24D /* Bavarian_ExoticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bavarian_ExoticsTests.swift; sourceTree = "<group>"; };
+		81B051AD1F7287CB00BED24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B051B21F7287CB00BED24D /* Bavarian ExoticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bavarian ExoticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B051B61F7287CB00BED24D /* Bavarian_ExoticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bavarian_ExoticsUITests.swift; sourceTree = "<group>"; };
+		81B051B81F7287CB00BED24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B051901F7287CB00BED24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051A41F7287CB00BED24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051AF1F7287CB00BED24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B0518A1F7287CB00BED24D = {
+			isa = PBXGroup;
+			children = (
+				81B051951F7287CB00BED24D /* Bavarian Exotics */,
+				81B051AA1F7287CB00BED24D /* Bavarian ExoticsTests */,
+				81B051B51F7287CB00BED24D /* Bavarian ExoticsUITests */,
+				81B051941F7287CB00BED24D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B051941F7287CB00BED24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B051931F7287CB00BED24D /* Bavarian Exotics.app */,
+				81B051A71F7287CB00BED24D /* Bavarian ExoticsTests.xctest */,
+				81B051B21F7287CB00BED24D /* Bavarian ExoticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B051951F7287CB00BED24D /* Bavarian Exotics */ = {
+			isa = PBXGroup;
+			children = (
+				81B051961F7287CB00BED24D /* AppDelegate.swift */,
+				81B051981F7287CB00BED24D /* ViewController.swift */,
+				81B0519A1F7287CB00BED24D /* Main.storyboard */,
+				81B0519D1F7287CB00BED24D /* Assets.xcassets */,
+				81B0519F1F7287CB00BED24D /* LaunchScreen.storyboard */,
+				81B051A21F7287CB00BED24D /* Info.plist */,
+			);
+			path = "Bavarian Exotics";
+			sourceTree = "<group>";
+		};
+		81B051AA1F7287CB00BED24D /* Bavarian ExoticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B051AB1F7287CB00BED24D /* Bavarian_ExoticsTests.swift */,
+				81B051AD1F7287CB00BED24D /* Info.plist */,
+			);
+			path = "Bavarian ExoticsTests";
+			sourceTree = "<group>";
+		};
+		81B051B51F7287CB00BED24D /* Bavarian ExoticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B051B61F7287CB00BED24D /* Bavarian_ExoticsUITests.swift */,
+				81B051B81F7287CB00BED24D /* Info.plist */,
+			);
+			path = "Bavarian ExoticsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B051921F7287CB00BED24D /* Bavarian Exotics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B051BB1F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian Exotics" */;
+			buildPhases = (
+				81B0518F1F7287CB00BED24D /* Sources */,
+				81B051901F7287CB00BED24D /* Frameworks */,
+				81B051911F7287CB00BED24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bavarian Exotics";
+			productName = "Bavarian Exotics";
+			productReference = 81B051931F7287CB00BED24D /* Bavarian Exotics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B051A61F7287CB00BED24D /* Bavarian ExoticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B051BE1F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian ExoticsTests" */;
+			buildPhases = (
+				81B051A31F7287CB00BED24D /* Sources */,
+				81B051A41F7287CB00BED24D /* Frameworks */,
+				81B051A51F7287CB00BED24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B051A91F7287CB00BED24D /* PBXTargetDependency */,
+			);
+			name = "Bavarian ExoticsTests";
+			productName = "Bavarian ExoticsTests";
+			productReference = 81B051A71F7287CB00BED24D /* Bavarian ExoticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B051B11F7287CB00BED24D /* Bavarian ExoticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B051C11F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian ExoticsUITests" */;
+			buildPhases = (
+				81B051AE1F7287CB00BED24D /* Sources */,
+				81B051AF1F7287CB00BED24D /* Frameworks */,
+				81B051B01F7287CB00BED24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B051B41F7287CB00BED24D /* PBXTargetDependency */,
+			);
+			name = "Bavarian ExoticsUITests";
+			productName = "Bavarian ExoticsUITests";
+			productReference = 81B051B21F7287CB00BED24D /* Bavarian ExoticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B0518B1F7287CB00BED24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Maik Diebenkorn";
+				TargetAttributes = {
+					81B051921F7287CB00BED24D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					81B051A61F7287CB00BED24D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B051921F7287CB00BED24D;
+					};
+					81B051B11F7287CB00BED24D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B051921F7287CB00BED24D;
+					};
+				};
+			};
+			buildConfigurationList = 81B0518E1F7287CB00BED24D /* Build configuration list for PBXProject "Bavarian Exotics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B0518A1F7287CB00BED24D;
+			productRefGroup = 81B051941F7287CB00BED24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B051921F7287CB00BED24D /* Bavarian Exotics */,
+				81B051A61F7287CB00BED24D /* Bavarian ExoticsTests */,
+				81B051B11F7287CB00BED24D /* Bavarian ExoticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B051911F7287CB00BED24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B051A11F7287CB00BED24D /* LaunchScreen.storyboard in Resources */,
+				81B0519E1F7287CB00BED24D /* Assets.xcassets in Resources */,
+				81B0519C1F7287CB00BED24D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051A51F7287CB00BED24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051B01F7287CB00BED24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B0518F1F7287CB00BED24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B051991F7287CB00BED24D /* ViewController.swift in Sources */,
+				81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051A31F7287CB00BED24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B051AC1F7287CB00BED24D /* Bavarian_ExoticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B051AE1F7287CB00BED24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B051B71F7287CB00BED24D /* Bavarian_ExoticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B051A91F7287CB00BED24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B051921F7287CB00BED24D /* Bavarian Exotics */;
+			targetProxy = 81B051A81F7287CB00BED24D /* PBXContainerItemProxy */;
+		};
+		81B051B41F7287CB00BED24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B051921F7287CB00BED24D /* Bavarian Exotics */;
+			targetProxy = 81B051B31F7287CB00BED24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B0519A1F7287CB00BED24D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B0519B1F7287CB00BED24D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B0519F1F7287CB00BED24D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B051A01F7287CB00BED24D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B051B91F7287CB00BED24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B051BA1F7287CB00BED24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B051BC1F7287CB00BED24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian Exotics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-Exotics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B051BD1F7287CB00BED24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian Exotics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-Exotics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81B051BF1F7287CB00BED24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian ExoticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-ExoticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bavarian Exotics.app/Bavarian Exotics";
+			};
+			name = Debug;
+		};
+		81B051C01F7287CB00BED24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian ExoticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-ExoticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bavarian Exotics.app/Bavarian Exotics";
+			};
+			name = Release;
+		};
+		81B051C21F7287CB00BED24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian ExoticsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-ExoticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bavarian Exotics";
+			};
+			name = Debug;
+		};
+		81B051C31F7287CB00BED24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VX779Z6K6;
+				INFOPLIST_FILE = "Bavarian ExoticsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diebenkorn.Bavarian-ExoticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bavarian Exotics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B0518E1F7287CB00BED24D /* Build configuration list for PBXProject "Bavarian Exotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B051B91F7287CB00BED24D /* Debug */,
+				81B051BA1F7287CB00BED24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B051BB1F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian Exotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B051BC1F7287CB00BED24D /* Debug */,
+				81B051BD1F7287CB00BED24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B051BE1F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian ExoticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B051BF1F7287CB00BED24D /* Debug */,
+				81B051C01F7287CB00BED24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B051C11F7287CB00BED24D /* Build configuration list for PBXNativeTarget "Bavarian ExoticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B051C21F7287CB00BED24D /* Debug */,
+				81B051C31F7287CB00BED24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B0518B1F7287CB00BED24D /* Project object */;
+}
