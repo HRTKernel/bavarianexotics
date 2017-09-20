@@ -1,0 +1,2 @@
+# bavarianexotics
+https://bavarianexotics.de
