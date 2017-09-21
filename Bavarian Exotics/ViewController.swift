@@ -9,6 +9,43 @@
 import UIKit
 
 class ViewController: UIViewController {
+            
+    @IBOutlet weak var navigationbar: UINavigationBar!
+    
+    @IBAction func back(_ sender: Any)
+    {
+        
+      if webView.canGoBack
+      
+      {
+        
+        webView.goBack()
+        
+      }
+        
+    }
+    
+    @IBAction func next(_ sender: Any)
+    {
+        
+       if webView.canGoForward
+       
+       {
+        
+        webView.goForward()
+       
+        }
+        
+    }
+    
+    @IBAction func refresh(_ sender: Any)
+    
+    {
+    
+        webView.reload()
+        
+    }
+    
     
     @IBOutlet weak var webView: UIWebView!
     
@@ -16,7 +53,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        let url = URL(string: "https://bavarianexotics.de")
+        let url = URL(string: baseurl)
         if let unwrappedURL = url {
             
             let request = URLRequest(url: unwrappedURL)
