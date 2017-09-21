@@ -8,4 +8,5 @@
 
 import Foundation
 
-var baseurl = "https://bavarianexotics.de"
+var baseurl = "https://bavarianexotics.de" // add your url here
+var facebookurl = "https://www.facebook.com/bavarianexotix/" // add your facebook page here

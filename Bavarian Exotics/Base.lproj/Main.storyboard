@@ -29,22 +29,29 @@
                                 <items>
                                     <navigationItem id="PFP-Nm-pbx">
                                         <leftBarButtonItems>
-                                            <barButtonItem systemItem="rewind" id="ieW-YD-xfQ">
+                                            <barButtonItem image="back" id="ieW-YD-xfQ">
                                                 <connections>
                                                     <action selector="back:" destination="BYZ-38-t0r" id="Ucd-9g-dh4"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem systemItem="fastForward" id="TPR-7i-5sz">
+                                            <barButtonItem image="next" id="TPR-7i-5sz">
                                                 <connections>
                                                     <action selector="next:" destination="BYZ-38-t0r" id="FGR-wr-Aon"/>
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Gvr-Jy-WAZ">
-                                            <connections>
-                                                <action selector="refresh:" destination="BYZ-38-t0r" id="PR6-yD-Vg8"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <rightBarButtonItems>
+                                            <barButtonItem image="refresh" id="Gvr-Jy-WAZ">
+                                                <connections>
+                                                    <action selector="refresh:" destination="BYZ-38-t0r" id="PR6-yD-Vg8"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="facebook" id="5En-aw-yuW">
+                                                <connections>
+                                                    <action selector="openfacebook:" destination="BYZ-38-t0r" id="prV-LW-Hws"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -64,4 +71,10 @@
             <point key="canvasLocation" x="134.78260869565219" y="132.06521739130434"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="25" height="25"/>
+        <image name="facebook" width="25" height="25"/>
+        <image name="next" width="25" height="25"/>
+        <image name="refresh" width="25" height="25"/>
+    </resources>
 </document>
