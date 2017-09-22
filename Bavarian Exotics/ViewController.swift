@@ -46,6 +46,17 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func info(_ sender: Any)
+    
+    {
+        let alertController = UIAlertController(title: abouttext, message:
+            developerinfo , preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default,handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    
     
     @IBOutlet weak var webView: UIWebView!
     

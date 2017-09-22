@@ -39,11 +39,16 @@
                                                     <action selector="next:" destination="BYZ-38-t0r" id="FGR-wr-Aon"/>
                                                 </connections>
                                             </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <rightBarButtonItems>
                                             <barButtonItem image="refresh" id="Gvr-Jy-WAZ">
                                                 <connections>
                                                     <action selector="refresh:" destination="BYZ-38-t0r" id="PR6-yD-Vg8"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <rightBarButtonItems>
+                                            <barButtonItem title="Item" image="info" id="29e-h3-tHO">
+                                                <connections>
+                                                    <action selector="info:" destination="BYZ-38-t0r" id="Hvx-D4-vQx"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem title="Item" image="facebook" id="5En-aw-yuW">
@@ -74,6 +79,7 @@
     <resources>
         <image name="back" width="25" height="25"/>
         <image name="facebook" width="25" height="25"/>
+        <image name="info" width="25" height="25"/>
         <image name="next" width="25" height="25"/>
         <image name="refresh" width="25" height="25"/>
     </resources>
