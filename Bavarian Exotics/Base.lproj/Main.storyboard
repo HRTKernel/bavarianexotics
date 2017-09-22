@@ -29,31 +29,36 @@
                                 <items>
                                     <navigationItem id="PFP-Nm-pbx">
                                         <leftBarButtonItems>
-                                            <barButtonItem image="back" id="ieW-YD-xfQ">
+                                            <barButtonItem image="back2" id="ieW-YD-xfQ">
                                                 <connections>
                                                     <action selector="back:" destination="BYZ-38-t0r" id="Ucd-9g-dh4"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem image="next" id="TPR-7i-5sz">
+                                            <barButtonItem image="next2" id="TPR-7i-5sz">
                                                 <connections>
                                                     <action selector="next:" destination="BYZ-38-t0r" id="FGR-wr-Aon"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem image="refresh" id="Gvr-Jy-WAZ">
+                                            <barButtonItem image="refresh2" id="Gvr-Jy-WAZ">
                                                 <connections>
                                                     <action selector="refresh:" destination="BYZ-38-t0r" id="PR6-yD-Vg8"/>
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
                                         <rightBarButtonItems>
-                                            <barButtonItem title="Item" image="info" id="29e-h3-tHO">
+                                            <barButtonItem title="Item" image="info2" id="29e-h3-tHO">
                                                 <connections>
                                                     <action selector="info:" destination="BYZ-38-t0r" id="Hvx-D4-vQx"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem title="Item" image="facebook" id="5En-aw-yuW">
+                                            <barButtonItem title="Item" image="facebook2" id="5En-aw-yuW">
                                                 <connections>
                                                     <action selector="openfacebook:" destination="BYZ-38-t0r" id="prV-LW-Hws"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="share" id="bZX-EO-axF">
+                                                <connections>
+                                                    <action selector="share:" destination="BYZ-38-t0r" id="B4x-zM-dRr"/>
                                                 </connections>
                                             </barButtonItem>
                                         </rightBarButtonItems>
@@ -77,10 +82,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back" width="25" height="25"/>
-        <image name="facebook" width="25" height="25"/>
-        <image name="info" width="25" height="25"/>
-        <image name="next" width="25" height="25"/>
-        <image name="refresh" width="25" height="25"/>
+        <image name="back2" width="25" height="25"/>
+        <image name="facebook2" width="25" height="25"/>
+        <image name="info2" width="25" height="25"/>
+        <image name="next2" width="25" height="25"/>
+        <image name="refresh2" width="25" height="25"/>
+        <image name="share" width="25" height="25"/>
     </resources>
 </document>

@@ -46,6 +46,24 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func share(_ sender: Any)
+    
+    {
+        
+        let message = sharemessage
+        if let sharelink = NSURL(string: shareurl)
+        
+        {
+            
+            let objectsToShare = [message,sharelink] as [Any]
+            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            activityVC.excludedActivityTypes = [UIActivityType.airDrop, UIActivityType.addToReadingList]
+            self.present(activityVC, animated: true, completion: nil)
+            
+        }
+        
+    }
+    
     @IBAction func info(_ sender: Any)
     
     {
