@@ -10,10 +10,11 @@ import Foundation
 
 // basic strings
 
-var developer = "Entwickler: M. Diebenkorn\n"
-var developerinfo = developer + "Icons von: https://icons8.com\n" + "\nBuild:" + version + "\n" + "\nCopyright © 2017 Maik Diebenkorn.\n All rights reserved.\n"
+var developer = "Entwickler: M.Diebenkorn\n"
+var developerinfo = developer + "Icons von: https://icons8.com\n" + "\nBuild:" + version + "\n" + copyright
 var abouttext = "Über diese App"
 var version = "1 Beta"
+var copyright = "\nCopyright © 2017 Maik Diebenkorn.\n All rights reserved.\n" //this line can not be edited
 
 // app strings
 
