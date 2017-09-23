@@ -61,6 +61,11 @@
                                                     <action selector="openfacebook:" destination="BYZ-38-t0r" id="prV-LW-Hws"/>
                                                 </connections>
                                             </barButtonItem>
+                                            <barButtonItem title="email" image="email" id="tEx-eE-CGq">
+                                                <connections>
+                                                    <action selector="sendemail:" destination="BYZ-38-t0r" id="Ket-qG-MGm"/>
+                                                </connections>
+                                            </barButtonItem>
                                         </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
@@ -82,6 +87,7 @@
     </scenes>
     <resources>
         <image name="back2" width="25" height="25"/>
+        <image name="email" width="25" height="25"/>
         <image name="facebook2" width="25" height="25"/>
         <image name="info2" width="25" height="25"/>
         <image name="next2" width="25" height="25"/>

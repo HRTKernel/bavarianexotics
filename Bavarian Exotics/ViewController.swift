@@ -142,5 +142,11 @@ class ViewController: UIViewController {
         
     }
     
-    
+    @IBAction func sendemail(_ sender: Any)
+        
+    {
+        UIApplication.shared.open(URL(string: "mailto:" + sendemailadress)! as URL, options: [:], completionHandler: nil)
+        
+    }
+
 }

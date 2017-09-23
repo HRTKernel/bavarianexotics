@@ -10,7 +10,9 @@ import Foundation
 
 // basic strings
 
+var appname = "Bavarian Exotics"
 var developer = "Entwickler: M.Diebenkorn\n"
+var developeremail = "maikdiebenkorn@gmail.com"
 var developerinfo = developer + "Icons von: https://icons8.com\n" + "\nBuild:" + version + "\n" + copyright
 var abouttext = "Über diese App"
 var version = "1 Beta"
@@ -22,3 +24,5 @@ var baseurl = "https://bavarianexotics.de" // add your url here
 var facebookurl = "https://www.facebook.com/bavarianexotix/" // add your facebook page here
 var sharemessage = "Schau dir mal diese Seite an:" // set the default sharing message
 var shareurl = baseurl // set the link to share
+var sendemailadress = developeremail // set email adress for in app email sending
+
