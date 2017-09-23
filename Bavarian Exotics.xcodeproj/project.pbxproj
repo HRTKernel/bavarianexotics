@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810BA2571F76A38F00BF86F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BA2561F76A38F00BF86F2 /* ViewController2.swift */; };
 		8125EA8F1F73DCBE003B0FB0 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125EA8E1F73DCBE003B0FB0 /* strings.swift */; };
 		81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051961F7287CB00BED24D /* AppDelegate.swift */; };
 		81B051991F7287CB00BED24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051981F7287CB00BED24D /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810BA2561F76A38F00BF86F2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		8125EA8E1F73DCBE003B0FB0 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
 		81B051931F7287CB00BED24D /* Bavarian Exotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bavarian Exotics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B051961F7287CB00BED24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				81B0519F1F7287CB00BED24D /* LaunchScreen.storyboard */,
 				81B051A21F7287CB00BED24D /* Info.plist */,
 				8125EA8E1F73DCBE003B0FB0 /* strings.swift */,
+				810BA2561F76A38F00BF86F2 /* ViewController2.swift */,
 			);
 			path = "Bavarian Exotics";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B051991F7287CB00BED24D /* ViewController.swift in Sources */,
+				810BA2571F76A38F00BF86F2 /* ViewController2.swift in Sources */,
 				81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */,
 				8125EA8F1F73DCBE003B0FB0 /* strings.swift in Sources */,
 			);

@@ -64,18 +64,6 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func info(_ sender: Any)
-    
-    {
-        let alertController = UIAlertController(title: abouttext, message:
-            developerinfo , preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default,handler: nil))
-        
-        self.present(alertController, animated: true, completion: nil)
-    }
-    
-    
-    
     @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
@@ -107,46 +95,9 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func openfacebook(_ sender: Any)
-    
-    {
-        
-        let url = URL(string: facebookurl)
-        if let unwrappedURL = url {
-            
-            let request = URLRequest(url: unwrappedURL)
-            let session = URLSession.shared
-            
-            let task = session.dataTask(with: request) { (data, response, error) in
-                
-                if error == nil {
-                    
-                    self.webView.loadRequest(request)
-                    
-                } else {
-                    
-                    print("ERROR: \(String(describing: error))")
-                    
-                }
-                
-            }
-            
-            task.resume()
-            
-        }
-        
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
     
-    @IBAction func sendemail(_ sender: Any)
-        
-    {
-        UIApplication.shared.open(URL(string: "mailto:" + sendemailadress)! as URL, options: [:], completionHandler: nil)
-        
-    }
-
 }

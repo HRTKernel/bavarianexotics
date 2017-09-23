@@ -50,23 +50,11 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <rightBarButtonItems>
-                                            <barButtonItem title="about" image="info2" id="29e-h3-tHO">
-                                                <connections>
-                                                    <action selector="info:" destination="BYZ-38-t0r" id="Hvx-D4-vQx"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="facebook" image="facebook2" id="5En-aw-yuW">
-                                                <connections>
-                                                    <action selector="openfacebook:" destination="BYZ-38-t0r" id="prV-LW-Hws"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="email" image="email" id="tEx-eE-CGq">
-                                                <connections>
-                                                    <action selector="sendemail:" destination="BYZ-38-t0r" id="Ket-qG-MGm"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </rightBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="settings" id="Rp7-8T-C07">
+                                            <connections>
+                                                <segue destination="ggU-PP-ofO" kind="presentation" id="MT1-IR-LVW"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -84,6 +72,93 @@
             </objects>
             <point key="canvasLocation" x="134.78260869565219" y="132.06521739130434"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="wxJ-eJ-hwb">
+            <objects>
+                <viewController id="ggU-PP-ofO" customClass="ViewController2" customModule="Bavarian_Exotics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z58-kk-O4y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hO6-2M-hzw">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Go3-KH-JCp">
+                                        <barButtonItem key="leftBarButtonItem" title="Zurück" id="RsX-6F-jOC">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="DQm-2g-qxg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="roM-hn-YrI">
+                                <rect key="frame" x="0.0" y="20" width="150" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weitere Funktionen:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9It-Y4-SMi">
+                                <rect key="frame" x="20" y="20" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Besuche uns auf Facebook:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdA-Y1-UHF">
+                                <rect key="frame" x="20" y="73" width="217" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sende uns eine E-Mail:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hb-RR-cNZ">
+                                <rect key="frame" x="20" y="131" width="217" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Über diese App:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHi-uQ-CnR">
+                                <rect key="frame" x="20" y="189" width="217" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7o7-Yz-85p">
+                                <rect key="frame" x="342" y="71" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="facebook2"/>
+                                <connections>
+                                    <action selector="facebook:" destination="ggU-PP-ofO" eventType="touchUpInside" id="E1V-XA-Ezj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2O-Jz-7mN">
+                                <rect key="frame" x="342" y="187" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="info2"/>
+                                <connections>
+                                    <action selector="about:" destination="ggU-PP-ofO" eventType="touchUpInside" id="kRq-aV-9d7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6o-Kf-pTa">
+                                <rect key="frame" x="342" y="129" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="email"/>
+                                <connections>
+                                    <action selector="email:" destination="ggU-PP-ofO" eventType="touchUpInside" id="ZtH-dk-XDe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oZZ-xQ-bhr"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roF-MU-2d7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863.768115942029" y="131.25"/>
+        </scene>
     </scenes>
     <resources>
         <image name="back2" width="25" height="25"/>
@@ -92,6 +167,7 @@
         <image name="info2" width="25" height="25"/>
         <image name="next2" width="25" height="25"/>
         <image name="refresh2" width="25" height="25"/>
+        <image name="settings" width="25" height="25"/>
         <image name="share" width="25" height="25"/>
     </resources>
 </document>
