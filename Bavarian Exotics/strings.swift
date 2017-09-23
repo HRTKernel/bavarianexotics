@@ -17,6 +17,10 @@ var developerinfo = developer + "Icons von: https://icons8.com\n" + "\nBuild:" +
 var abouttext = "Über diese App"
 var version = "1 Beta"
 var copyright = "\nCopyright © 2017 Maik Diebenkorn.\n All rights reserved.\n" // this line can not be edited
+var opendeveloperfacebook = "fb://profile/1702230170024267"
+var devloperfacebookurl = "https://www.facebook.com/Maik-Diebenkorn/"
+var devlopergithub = "https://github.com/HRTKernel"
+
 
 // app strings
 

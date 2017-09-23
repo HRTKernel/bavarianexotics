@@ -52,6 +52,25 @@ class ViewController2: UIViewController {
         
     }
     
+    @IBAction func developerfacebook(_ sender: Any)
     
-
+    {
+        
+        if UIApplication.shared.canOpenURL(URL(string: opendeveloperfacebook)!) {
+            UIApplication.shared.open(URL(string: opendeveloperfacebook)!, options: [:])
+        } else {
+            UIApplication.shared.open(URL(string: devloperfacebookurl)!, options: [:])
+        }
+        
+    }
+    
+    @IBAction func developergithub(_ sender: Any)
+    
+    {
+        
+        UIApplication.shared.open(URL(string: devlopergithub)!, options: [:])
+        
+    }
+    
+    
 }
