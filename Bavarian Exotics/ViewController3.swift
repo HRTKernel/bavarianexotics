@@ -12,7 +12,6 @@ class ViewController3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
 
@@ -21,5 +20,4 @@ class ViewController3: UIViewController {
         
     }
     
-
 }

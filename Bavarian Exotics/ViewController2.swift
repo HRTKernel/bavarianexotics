@@ -12,6 +12,14 @@ class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        funktionenlabel.text = funktionen_de
+        vistfacebooklabel.text = vistfacebook
+        sendemaillabel.text = sendemail
+        aboutlabel.text = abouttext
+        developerfacebooklabel.text = developerfacebook_string
+        developergithublabel.text = developergithub_string
+        copyrightlabel.text = copyright
+        
 
     }
 
@@ -71,6 +79,14 @@ class ViewController2: UIViewController {
         UIApplication.shared.open(URL(string: devlopergithub)!, options: [:])
         
     }
+    
+    @IBOutlet var funktionenlabel: UILabel!
+    @IBOutlet var vistfacebooklabel: UILabel!
+    @IBOutlet var sendemaillabel: UILabel!
+    @IBOutlet var aboutlabel: UILabel!
+    @IBOutlet var developerfacebooklabel: UILabel!
+    @IBOutlet var developergithublabel: UILabel!
+    @IBOutlet var copyrightlabel: UILabel!
     
     
 }

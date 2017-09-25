@@ -10,6 +10,8 @@
 		810BA2571F76A38F00BF86F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BA2561F76A38F00BF86F2 /* ViewController2.swift */; };
 		810BA2591F76DB9700BF86F2 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BA2581F76DB9700BF86F2 /* ViewController3.swift */; };
 		8125EA8F1F73DCBE003B0FB0 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125EA8E1F73DCBE003B0FB0 /* strings.swift */; };
+		816AB1571F79156000AFB1E6 /* deviceinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AB1561F79156000AFB1E6 /* deviceinfo.swift */; };
+		816AB15A1F79204000AFB1E6 /* string_language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AB1591F79204000AFB1E6 /* string_language.swift */; };
 		81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051961F7287CB00BED24D /* AppDelegate.swift */; };
 		81B051991F7287CB00BED24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B051981F7287CB00BED24D /* ViewController.swift */; };
 		81B0519C1F7287CB00BED24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0519A1F7287CB00BED24D /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		810BA2561F76A38F00BF86F2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		810BA2581F76DB9700BF86F2 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		8125EA8E1F73DCBE003B0FB0 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
+		816AB1561F79156000AFB1E6 /* deviceinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deviceinfo.swift; sourceTree = "<group>"; };
+		816AB1591F79204000AFB1E6 /* string_language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string_language.swift; sourceTree = "<group>"; };
 		81B051931F7287CB00BED24D /* Bavarian Exotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bavarian Exotics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B051961F7287CB00BED24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B051981F7287CB00BED24D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816AB1581F79202600AFB1E6 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				816AB1591F79204000AFB1E6 /* string_language.swift */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
 		81B0518A1F7287CB00BED24D = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		81B051951F7287CB00BED24D /* Bavarian Exotics */ = {
 			isa = PBXGroup;
 			children = (
+				816AB1581F79202600AFB1E6 /* language */,
 				81B051961F7287CB00BED24D /* AppDelegate.swift */,
 				81B051981F7287CB00BED24D /* ViewController.swift */,
 				81B0519A1F7287CB00BED24D /* Main.storyboard */,
@@ -112,6 +125,7 @@
 				8125EA8E1F73DCBE003B0FB0 /* strings.swift */,
 				810BA2561F76A38F00BF86F2 /* ViewController2.swift */,
 				810BA2581F76DB9700BF86F2 /* ViewController3.swift */,
+				816AB1561F79156000AFB1E6 /* deviceinfo.swift */,
 			);
 			path = "Bavarian Exotics";
 			sourceTree = "<group>";
@@ -273,6 +287,8 @@
 				810BA2571F76A38F00BF86F2 /* ViewController2.swift in Sources */,
 				81B051971F7287CB00BED24D /* AppDelegate.swift in Sources */,
 				8125EA8F1F73DCBE003B0FB0 /* strings.swift in Sources */,
+				816AB1571F79156000AFB1E6 /* deviceinfo.swift in Sources */,
+				816AB15A1F79204000AFB1E6 /* string_language.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
